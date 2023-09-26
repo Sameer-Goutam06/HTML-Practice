@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <form action="C:\Users\samee\OneDrive\Documents\html.vscode\Forms.html">
+            <label>
+                Username:
+                <input type="text" placeholder="enter username">
+            </label><!-- normal approach-->
+            <br>
+            <label for="Password">Enter your password:</label>
+            <input type="password" id="Password" placeholder="enter password">
+            <br>
+            <label for="mobile">Enter your mobile number:</label>
+            <input type="number" id="mobile" placeholder="enter number">
+            <br>
+            <label for="mail">Enter your mail:</label>
+            <input type="email" id="mail" placeholder="enter mail">
+            <br>
+            <label for="colour">Enter your favourite color:</label>
+            <input type="color" id="colour" placeholder="enter color">
+            <br>
+            <button type="submit">Submit</button>
+            <br>
+            <button type="reset">reset</button>
+            <br>
+            <button type="button">Sample button</button>
+        </form>
+        <br>
+    </div>
+    <!--name attribute usage-->
+    <div>
+        <form action="https://www.google.com/search">
+            <input type="text" placeholder="Search with Google or type a URL" name="q">
+            <button>Search</button>
+        </form>
+    <br>
+    </div>
+    <div>
+        <form>
+            <p> Choose your subjects</p>
+            <input type="checkbox" id="math" name="subject" />
+            <label for="math">Maths</label>
+            <br>
+            <input type="checkbox" id="science" name="subject" />
+            <label for="math">science</label>
+            <br>
+            <input type="checkbox" id="social" name="subject" />
+            <label for="math">social</label>
+            <br>
+            <input type="checkbox" id="Eng" name="subject" />
+            <label for="Eng">English</label>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    <br>
+    </div>
+    <div>
+        <form>
+            <p>Choose a book</p>
+            <input type="radio" id="QM" name="book" value="Quantum Mechanics">
+            <label for="QM">Quantum Mechanics</label>
+            <br>
+            <input type="radio" id="SFCS" name="book" value="Statistics">
+            <label for="SFCS">statistics</label>
+            <br>
+            <input type="radio" id="Oc" name="book" value="organic chemistry">
+            <label for="Oc">Organic Chemistry</label>
+            <br>
+            <input type="radio" id="EE" name="book" value="Electrical Engineering">
+            <label for="EE">ELECTRICAL ENGINEERING</label>
+            <br>
+            <button type="submit">submit</button>
+        </form>    
+    </div>
+    <br>
+    <div>
+        <form>
+            Choose your profession
+            <select name="profession" id="profession">
+                <option value="student">student</option>
+                <option value="developer">Developer</option>
+                <option value="other" selected>Other</option>
+            </select>
+            <br>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <label for="volume">select the volume level:</label>
+            <input type="range" id="volume" min="0" max="100" name="vol" step="1" value="30"/>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <label for="feedback">Feedback</label>
+            <textarea id="feedback" name="feedback" rows="10" cols="30" placeholder="write your feedback here"></textarea>
+        </form>
+    </div>
+</body>
+</html>

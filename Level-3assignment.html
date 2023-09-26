@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Student Information</caption>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+        <br>
+        Sex:
+        <input type="radio" id="male" name="sex" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="Female">
+        <label for="female">Female</label>
+        <br>
+        Country:
+        <select name="country" id="Country" >
+            <option >Select an option</option>
+            <option value="India">India</option>
+            <option value="UAE">UAE</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select>
+        <br>
+        <label for="Message">
+            Message:
+        </label>
+        <br>
+        <textarea id="Message" rows="5" cols="30"></textarea>
+        <br>
+        <input type="checkbox" id="subscribe" name="subscribe"/>
+        <label for="subscribe">subscribe?</label>
+        <br>
+        <button type="Submit">submit</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form>
+        <h2>Feedback Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Write your name">
+        <br>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" placeholder="Write your email">
+        <br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" rows="5" cols="30"></textarea>
+        <br>
+        <p>rate us out of 5:</p>
+        <input type="radio" id="1" name="rating">
+        <label for="1">1</label>
+        <br>
+        <input type="radio" id="2" name="rating">
+        <label for="2">2</label>
+        <br>
+        <input type="radio" id="3" name="rating">
+        <label for="3">3</label>
+        <br>
+        <input type="radio" id="4" name="rating">
+        <label for="4">4</label>
+        <br>
+        <input type="radio" id="5" name="rating">
+        <label for="5">5</label>
+        <br>
+        <br>
+        <button type="submit">Send your message!</button>    
+    </form>
+
+</body>
+</html>
